@@ -5,21 +5,21 @@
 }
 :root{
     --text-color: white;
-    --bg-url:url( "/site/images/bg-mobile.jpg");
+    --bg-url:url( "./bg-mobile.jpg");
     --stroke-color:rgba(255, 255, 255, 0.5);
     --surface-color:rgba(255, 255, 255, 0.05);
     --surface-color-hover:rgba(0,0,0,0.02);
     --highlight-color:rgba(255,255,255,0.2);
-    --switch-bg: url("/site/images/MoonStars.svg");
+    --switch-bg: url("./MoonStars.svg");
 }
 .light{
     --text-color: black; 
-    --bg-url:url("/site/images/bg-mobile-light.jpg");
+    --bg-url:url("./bg-mobile-light.jpg");
     --stroke-color:rgba(0, 0, 0, 0.5);
     --surface-color:rgba(0, 0, 0, 0.05);
     --surface-color-hover:rgba(0,0,0,0.02);
     --highlight-color:rgba(0,0,0,0.1);
-    --switch-bg: url("/site/images/Sun.svg");
+    --switch-bg: url("./Sun.svg");
 }
 body{
     background: var(--bg-url) no-repeat top center/cover;
@@ -129,10 +129,10 @@ footer{
 }
 @media(min-width: 700px){
     :root{
-        --bg-url:url("/site/images/bg-desktop.jpg");
+        --bg-url:url("./bg-desktop.jpg");
     }  
     .light{
-        --bg-url:url("/site/images/bg-desktop-light.jpg");
+        --bg-url:url("./bg-desktop-light.jpg");
     }
 }
 @keyframes slide-in{
